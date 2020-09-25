@@ -1,0 +1,159 @@
+name: trendingfood_flutter
+description: My Business
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.9.1+hotfix.4
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_screenutil: ^2.3.0
+  http: ^0.12.0+2
+  flutter_calendar: ^0.0.1
+  fluttery_dart2: ^0.0.9
+  spritewidget: ^0.9.24
+  curved_navigation_bar: ^0.2.1
+  shared_preferences: ^0.5.8
+  get_it: ^3.0.3
+  json_serializable: ^3.3.0
+  fluttertoast: ^7.0.2
+  scoped_model: ^1.0.1
+  image_picker: ^0.6.7+4
+  synchronized: ^2.2.0+2
+  font_awesome_flutter: ^8.8.1
+  flutter_custom_clippers: ^1.1.1
+  charts_flutter: ^0.9.0
+  cached_network_image: ^2.2.0+1
+  localstorage: ^3.0.0
+  oauth2_client: ^1.4.4
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.5
+
+
+flutter_icons:
+  image_path: "assets/images/icon.png"
+  ios: true
+  android: true
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/hotels.png
+    - assets/banks.png
+    - assets/key.png
+    - assets/shopping_cart.png
+    - assets/stores.png
+    - assets/wallet.png
+    - assets/images/login.png
+    - assets/dark_grunge_bk.jpg
+    - assets/wood_bk.jpg
+    - assets/eggs_in_skillet.jpg
+    - assets/steak_on_cooktop.jpg
+    - assets/spoons_of_spices.jpg
+    - assets/other_screen_bk.jpg
+    - assets/other_screen_card_photo.jpg
+    - assets/weather-bk.png
+    - assets/weather-bk_enlarged.png
+    - assets/ic_cloudy.png
+    - assets/ic_rain.png
+    - assets/ic_sunny.png
+    - assets/weathersprites.png
+    - assets/images/sad.png
+    - assets/images/fraud.png
+    - assets/images/burger.png
+    - assets/images/pizza.png
+    - assets/images/coffee-cup.png
+    - assets/images/beer.png
+    - assets/images/chating.png
+    - assets/images/price.png
+    - assets/images/status.png
+    - assets/images/map.png
+    - assets/images/vanilla.png
+    - assets/images/sugar.png
+    - assets/images/eggs.png
+    - assets/images/food_logo.png
+    - assets/images/french-fries.jpg
+    - assets/images/burger1.jpg
+    - assets/images/burger.jpg
+    - assets/images/farm.png
+    - assets/images/star.png
+    - assets/images/dice.png
+    - assets/images/default_post.jpg
+    - assets/images/buyer1.png
+    - assets/images/farmer1.png
+    - assets/images/market1.png
+    - assets/images/representator1.png
+    - assets/images/transporter1.png
+    - assets/images/call.png
+    - assets/images/truck.png
+    - assets/images/order.png
+    - assets/images/logo.png
+    - assets/images/grain.png
+    - assets/images/vegetable.png
+    - assets/images/fruit.png
+    - assets/images/cheeseburger.png
+    - assets/images/icon.png
+    - assets/json/weathersprites.json
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/CustomIcons.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    - family: mermaid
+      fonts:
+        - asset: assets/fonts/Mermaid1001.ttf
+    - family: bebas-neue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
